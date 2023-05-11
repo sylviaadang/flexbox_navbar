@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    background-color: grey;
+    height: 50px;
+    width: 1500px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-title {
+    margin: 10px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: lighter;
+    /* text-align:start; */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    color: white;
+    list-style-type: none;
+    margin-left: 900px;
+}
+
+.btn {
+    background-color: rgb(53, 168, 168);
+    color: white;
+    margin: 10px;
+}
